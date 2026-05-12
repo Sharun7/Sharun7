@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./header.svg" width="100%" alt="Sharun Tomy — Climate Intelligence"/>
+  <img src="./header.svg" width="100%" alt="Sharun Tomy — Climate Intelligence"/>
 </div>
 
 <br/>
@@ -23,13 +23,78 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2800&pause=900&color=00FF87&center=true&vCenter=true&width=650&lines=🛰️+Verifying+green+bonds+via+satellite+imagery;🌍+Building+GreenLens+—+live+climate+risk+platform;📡+NASA+Space+Apps+2025+Local+Runner-Up;🔬+Researcher+%7C+MSc+Data+Analytics+%40+MGU;⛓️+Turning+Earth+data+into+climate+accountability" alt="typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2800&pause=900&color=00FF87&center=true&vCenter=true&width=700&lines=🛰️+Verifying+green+bonds+via+satellite+imagery;🌍+Building+GreenLens+—+live+climate+risk+platform;📡+NASA+Space+Apps+2025+Local+Runner-Up;🔬+Researcher+%7C+MSc+Data+Analytics+%40+MGU;⛓️+Turning+Earth+observation+data+into+climate+accountability" alt="typing"/>
 
 </div>
 
 ---
 
-## ⚡ ACTIVE OPERATIONS
+## 🧑‍💻 About Me
+
+I am a **climate intelligence researcher and data systems developer** from Kerala, India, currently pursuing an **MSc in Data Analytics** at Mahatma Gandhi University. My work sits at the intersection of **Earth observation, machine learning, and sustainable finance** — I build systems that use satellite imagery to verify real-world climate claims, catch greenwashing in green bond markets, and deliver early-warning signals to disaster-vulnerable communities.
+
+My flagship project **GreenLens** is a live, publicly deployed platform that has independently scored **1,345 real green bonds** using ESA Sentinel-2 satellite data and XGBoost risk modelling — without relying on issuer self-disclosure. I am driven by a single belief: **climate accountability should be impossible to fake.**
+
+- 🌍 &nbsp; Based in **Kottayam, Kerala, India**
+- 🎓 &nbsp; **MSc Data Analytics** — Mahatma Gandhi University (2024–2027)
+- 📄 &nbsp; **Research publication accepted — June 2026**
+- 🏆 &nbsp; **NASA Space Apps Challenge 2025** — Local 1st Runner-Up
+- 🔭 &nbsp; Currently building **GreenLens** (satellite-verified green finance)
+- 📬 &nbsp; Reach me at **sharuntomy7@gmail.com**
+- 🌐 &nbsp; Portfolio: **[sharuntomyportfolio.onrender.com](https://sharuntomyportfolio.onrender.com)**
+
+---
+
+## 🎓 Education
+
+| Degree | Institution | Period | Score |
+|--------|-------------|--------|-------|
+| **MSc Data Analytics** | Mahatma Gandhi University, Kottayam | 2024 – 2027 (ongoing) | — |
+| **BCA — Bachelor of Computer Applications** | Mahatma Gandhi University, Kottayam | 2021 – 2024 | 6.80 / 10 |
+| **Higher Secondary (DHSE)** | Holy Cross Higher Secondary School, Kerala | Completed 2021 | 79.58% |
+
+> 📌 Thesis (BCA): *KISSAN MART — A Web Application for the Agricultural Sector*
+
+---
+
+## 🔬 Research & Publication
+
+<table>
+<tr>
+<td width="75px" align="center">📄</td>
+<td>
+
+**GreenLens — Satellite-Verified Climate Risk Intelligence for Green Finance**
+<br/>
+*Research Paper · Accepted June 2026*
+<br/>
+Introduces a physical-evidence-based framework for auditing green bond claims using ESA Sentinel-2 imagery, XGBoost climate risk scoring, and market pricing gap analysis. Demonstrates detection of 156 greenwashing cases across 1,345 real-world green bonds.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🎯 Research Focus Areas
+
+<div align="center">
+
+| 🛰️ Earth Observation & Remote Sensing | 🌿 Climate Risk & Green Finance | ⛓️ Environmental Accountability |
+|:---:|:---:|:---:|
+| ESA Sentinel-2 · NASA Earthdata | ESG Scoring · Greenwashing Detection | Blockchain · Digital Verification |
+| Google Earth Engine · PostGIS | Green Bond Analysis · SHAP Explainability | Carbon Markets · Transparency Systems |
+
+| 🤖 Applied Machine Learning | 🌐 Geospatial Systems | 🚨 Disaster Intelligence |
+|:---:|:---:|:---:|
+| XGBoost · PyTorch ResNet-18 | Leaflet.js · PostGIS · GeoJSON | Early Warning Systems |
+| Climate Risk Modelling | Interactive Risk Dashboards | NASA Earth Observation Data |
+
+</div>
+
+---
+
+## ⚡ Featured Projects
 
 <table>
 <tr>
@@ -37,13 +102,20 @@
 
 ### 🛰️ GreenLens
 **Satellite-Verified Climate Risk — Green Finance**
-`April 2026 · Sole Developer & Architect`
+`April 2026 · Sole Developer & System Architect`
 
-Verifies real-world green bonds using **ESA Sentinel-2** + **XGBoost** physical climate risk scoring. Detects greenwashing via pricing gap analysis.
+An independent climate intelligence platform that **verifies real green bonds** using ESA Sentinel-2 imagery, XGBoost physical risk scoring, and live financial market data. No reliance on issuer self-disclosure.
 
-![](https://img.shields.io/badge/Bonds-1%2C345%2B_Verified-00ff87?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/Greenwashing-156_Cases-ff4757?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/Status-LIVE-brightgreen?style=flat-square&labelColor=0d1117)
+- ✅ Scored **1,345+** real bonds globally
+- 🚨 Flagged **156** greenwashing cases
+- 📊 SHAP explainability on every score
+- 🌐 Publicly deployed web dashboard
+
+![](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=00ff87)
+![](https://img.shields.io/badge/Django-0d1117?style=flat-square&logo=django&logoColor=00ff87)
+![](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square)
+![](https://img.shields.io/badge/PostGIS-316192?style=flat-square&logo=postgresql&logoColor=white)
+![](https://img.shields.io/badge/Leaflet.js-199900?style=flat-square&logo=leaflet&logoColor=white)
 
 `SDGs 13 · 7 · 17`
 
@@ -52,11 +124,16 @@ Verifies real-world green bonds using **ESA Sentinel-2** + **XGBoost** physical 
 
 ### ⚡ QUASAR
 **Climate Prediction & Early Warning System**
-`Oct 2025 · Predictive Model Designer`
+`Oct 2025 · Predictive Model & Platform Designer`
 
-Forecasts natural disasters using NASA open-source Earth observation data. Delivers early alerts to disaster-vulnerable communities.
+Forecasts natural disasters using **NASA open-source Earth observation data** and historical climate patterns. Delivers early alerts to communities with limited disaster-response infrastructure.
 
-![](https://img.shields.io/badge/NASA-Space_Apps_2025-0b3d91?style=flat-square&labelColor=0d1117)
+- 🌪️ Real-time weather + historical data fusion
+- 📡 Accessible digital alert delivery
+- 🏆 NASA Space Apps Challenge 2025 — **Local 1st Runner-Up**
+
+![](https://img.shields.io/badge/NASA-Earthdata-0b3d91?style=flat-square&logo=nasa&logoColor=white)
+![](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=00ff87)
 ![](https://img.shields.io/badge/Award-Local_Runner--Up_🏆-ffd700?style=flat-square&labelColor=0d1117)
 
 `SDGs 13 · 11`
@@ -70,9 +147,14 @@ Forecasts natural disasters using NASA open-source Earth observation data. Deliv
 **Carbon On-Chain Sustainability Ecosystem**
 `Dec 2025 → 2028 · Research & System Design`
 
-Converts real-world environmental actions into verifiable digital assets via AI + blockchain. Shortlisted for university incubation.
+Integrates **AI + blockchain** to convert real-world environmental actions (recycling, conservation, energy savings) into verifiable digital assets. Creates a transparent, incentivised sustainability economy.
 
-![](https://img.shields.io/badge/Innovation_Score-85%2F100-00ff87?style=flat-square&labelColor=0d1117)
+- 💡 Innovation Score: **85/100**
+- 🏛️ **Shortlisted** for university-level incubation
+- 🔗 Carbon identity system + green marketplace
+
+![](https://img.shields.io/badge/Blockchain-0d1117?style=flat-square&logoColor=60efff)
+![](https://img.shields.io/badge/AI_Verification-0d1117?style=flat-square&logoColor=00ff87)
 ![](https://img.shields.io/badge/Incubation-Shortlisted-60efff?style=flat-square&labelColor=0d1117)
 
 `SDGs 13 · 12 · 9`
@@ -84,7 +166,11 @@ Converts real-world environmental actions into verifiable digital assets via AI 
 **Citizen-Government Environmental Platform**
 `Oct 2025 · Co-Creator`
 
-Citizens report pollution via photo evidence. Authorities tracked for compliance. Digital rewards for verified reports.
+Citizens report pollution (plastic burning, waste dumping, air pollution) via **photo evidence**. Authorities tracked for timely compliance. Digital rewards for verified community reports.
+
+- 📸 Location-based photo evidence reporting
+- 🏛️ Government accountability tracking
+- 🎁 Digital reward system for verified reports
 
 ![](https://img.shields.io/badge/Role-Co--Creator-00ff87?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/Stage-Prototype-60efff?style=flat-square&labelColor=0d1117)
@@ -93,11 +179,42 @@ Citizens report pollution via photo evidence. Authorities tracked for compliance
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📚 STUBE
+**Smart Syllabus-Based Digital Learning Platform**
+`Jan 2026 · Founder & System Architect`
+
+Verifies student academic identity and provides access only to **syllabus-mapped study materials**, free from entertainment distractions. Content reviewed by educators and high-performing students.
+
+![](https://img.shields.io/badge/Stage-Concept-60efff?style=flat-square&labelColor=0d1117)
+
+`SDGs 4 · 9 · 10`
+
+</td>
+<td width="50%" valign="top">
+
+### 🌾 KISSAN MART
+**Agricultural Sector Web Application**
+`2024 · BCA Final Thesis`
+
+Full-stack web platform for farmers and agricultural stakeholders — seeds, fertilizers, equipment, expert advice and market insights. Built with **PHP, Django, MySQL**.
+
+![](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![](https://img.shields.io/badge/Status-Completed-00ff87?style=flat-square&labelColor=0d1117)
+
+`SDGs 2 · 12`
+
+</td>
+</tr>
 </table>
 
 ---
 
-## 🛠 TECH ARSENAL
+## 🛠 Tech Arsenal
 
 <div align="center">
 
@@ -105,11 +222,11 @@ Citizens report pollution via photo evidence. Authorities tracked for compliance
 
 [![Skills](https://skillicons.dev/icons?i=python,js,php,cpp,java,html,css&theme=dark)](https://skillicons.dev)
 
-**AI · Data · Earth Systems**
+**AI · Machine Learning · Data Science**
 
 [![Skills](https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow,postgres,mysql&theme=dark)](https://skillicons.dev)
 
-**Infrastructure · Cloud · Tools**
+**Infrastructure · Cloud · DevOps**
 
 [![Skills](https://skillicons.dev/icons?i=django,azure,git,linux,github&theme=dark)](https://skillicons.dev)
 
@@ -126,30 +243,71 @@ Citizens report pollution via photo evidence. Authorities tracked for compliance
 
 ---
 
-## 📡 SIGNAL METRICS
+## 📊 GitHub Analytics
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=react-dark&bg_color=0d1117&color=00ff87&line=00ff87&point=60efff&area=true&area_color=00ff87&hide_border=true&radius=8)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Sharun7&show_icons=true&theme=react&bg_color=0d1117&title_color=00ff87&icon_color=60efff&text_color=ffffff&border_color=30363d&rank_icon=github&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sharun7&layout=compact&theme=react&bg_color=0d1117&title_color=00ff87&text_color=ffffff&border_color=30363d&langs_count=8"/>
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Sharun7&theme=dark&background=0d1117&ring=00ff87&fire=60efff&currStreakLabel=00ff87&sideNums=ffffff&dates=8b949e&border=30363d)](https://git.io/streak-stats)
 
 </div>
 
 ---
 
-## 🐍 CONTRIBUTION TRAIL
+## 🌐 Activity Graph
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-snake-dark.svg" alt="contribution snake"/>
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Sharun7&theme=react-dark&bg_color=0d1117&color=00ff87&line=00ff87&point=60efff&area=true&area_color=00ff87&hide_border=true&radius=8)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
 </div>
 
 ---
 
-## 🌐 OPEN CHANNEL
+## 🗓️ 3D Contribution Calendar
+
+<div align="center">
+  <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contribution Calendar" width="100%"/>
+</div>
+
+---
+
+## 🐍 Contribution Trail
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Sharun7/Sharun7/output/github-snake-dark.svg" alt="contribution snake"/>
+</div>
+
+---
+
+## 🏆 Achievements & Recognition
+
+<div align="center">
+
+| 🏆 Award | 📅 Year | 🌍 Scope |
+|----------|---------|---------|
+| NASA Space Apps Challenge — Local 1st Runner-Up | 2025 | International Competition |
+| Research Paper Accepted for Publication | 2026 | Academic |
+| ANOMALY — Shortlisted, University Incubation | 2025 | University Level |
+| MGU Innovation Big Idea Fest — Participant | 2025 | University Level |
+
+</div>
+
+---
+
+## 🌐 Open Channel
 
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/🌍_Portfolio-sharuntomyportfolio.onrender.com-00ff87?style=for-the-badge&labelColor=0d1117)](https://sharuntomyportfolio.onrender.com)
 [![Email](https://img.shields.io/badge/📧_Email-sharuntomy7@gmail.com-EA4335?style=for-the-badge&labelColor=0d1117)](mailto:sharuntomy7@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Sharun7-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sharun7)
 
 </div>
 
@@ -159,6 +317,8 @@ Citizens report pollution via photo evidence. Authorities tracked for compliance
 <sub>
 🛰️ <code>Sentinel-2</code> · <code>XGBoost</code> · <code>PostGIS</code> · <code>PyTorch ResNet-18</code> · <code>Django</code> · <code>Leaflet.js</code>
 <br/>
-<i>Built from Kerala. Watching Earth from orbit.</i>
+<i>"Climate accountability should be impossible to fake."</i>
+<br/><br/>
+<img src="https://komarev.com/ghpvc/?username=Sharun7&label=Profile+Views&color=00ff87&style=flat-square" alt="profile views"/>
 </sub>
 </div>
