@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="860" height="300" viewBox="0 0 860 300">
+     width="860" height="320" viewBox="0 0 860 320">
 
   <defs>
     <radialGradient id="bg-g" cx="25%" cy="50%" r="90%">
@@ -29,14 +29,13 @@
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <clipPath id="earth-clip">
-      <circle cx="175" cy="152" r="72"/>
+      <circle cx="175" cy="158" r="72"/>
     </clipPath>
-    <!-- Satellite orbit ellipse as path -->
-    <path id="orb" d="M 45,152 a 130,52 0 1,0 260,0 a 130,52 0 1,0 -260,0"/>
+    <path id="orb" d="M 45,158 a 130,52 0 1,0 260,0 a 130,52 0 1,0 -260,0"/>
   </defs>
 
-  <!-- ── BACKGROUND ── -->
-  <rect width="860" height="300" fill="url(#bg-g)"/>
+  <!-- BACKGROUND -->
+  <rect width="860" height="320" fill="url(#bg-g)"/>
 
   <!-- Stars -->
   <circle cx="12"  cy="8"   r="0.7" fill="#fff" opacity="0.65"/>
@@ -70,15 +69,12 @@
   <circle cx="855" cy="16"  r="0.5" fill="#fff" opacity="0.65"/>
   <circle cx="8"   cy="48"  r="0.6" fill="#fff" opacity="0.55"/>
   <circle cx="30"  cy="72"  r="0.8" fill="#fff" opacity="0.70"/>
-  <circle cx="22"  cy="225" r="0.6" fill="#fff" opacity="0.60"/>
-  <circle cx="38"  cy="248" r="0.5" fill="#fff" opacity="0.75"/>
-  <circle cx="62"  cy="272" r="0.7" fill="#fff" opacity="0.55"/>
-  <circle cx="18"  cy="288" r="0.5" fill="#fff" opacity="0.80"/>
+  <circle cx="22"  cy="245" r="0.6" fill="#fff" opacity="0.60"/>
+  <circle cx="38"  cy="268" r="0.5" fill="#fff" opacity="0.75"/>
+  <circle cx="62"  cy="290" r="0.7" fill="#fff" opacity="0.55"/>
+  <circle cx="18"  cy="308" r="0.5" fill="#fff" opacity="0.80"/>
   <circle cx="318" cy="48"  r="0.6" fill="#fff" opacity="0.65"/>
   <circle cx="308" cy="92"  r="0.5" fill="#fff" opacity="0.75"/>
-  <circle cx="312" cy="198" r="0.7" fill="#fff" opacity="0.55"/>
-  <circle cx="322" cy="238" r="0.6" fill="#fff" opacity="0.70"/>
-  <circle cx="345" cy="262" r="0.5" fill="#fff" opacity="0.60"/>
   <circle cx="388" cy="72"  r="0.7" fill="#fff" opacity="0.75"/>
   <circle cx="425" cy="55"  r="0.5" fill="#fff" opacity="0.65"/>
   <circle cx="468" cy="85"  r="0.8" fill="#fff" opacity="0.55"/>
@@ -92,66 +88,53 @@
   <circle cx="775" cy="82"  r="0.5" fill="#fff" opacity="0.75"/>
   <circle cx="815" cy="50"  r="0.7" fill="#fff" opacity="0.60"/>
   <circle cx="848" cy="88"  r="0.6" fill="#fff" opacity="0.80"/>
-  <circle cx="408" cy="262" r="0.5" fill="#fff" opacity="0.65"/>
-  <circle cx="455" cy="278" r="0.7" fill="#fff" opacity="0.55"/>
-  <circle cx="502" cy="258" r="0.6" fill="#fff" opacity="0.75"/>
-  <circle cx="548" cy="282" r="0.5" fill="#fff" opacity="0.60"/>
-  <circle cx="595" cy="268" r="0.8" fill="#fff" opacity="0.70"/>
-  <circle cx="642" cy="258" r="0.6" fill="#fff" opacity="0.65"/>
-  <circle cx="688" cy="278" r="0.5" fill="#fff" opacity="0.80">
+  <circle cx="688" cy="295" r="0.5" fill="#fff" opacity="0.80">
     <animate attributeName="opacity" values="0.80;0.20;0.80" dur="2.8s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="735" cy="262" r="0.7" fill="#fff" opacity="0.55"/>
-  <circle cx="782" cy="282" r="0.6" fill="#fff" opacity="0.70"/>
-  <circle cx="828" cy="268" r="0.5" fill="#fff" opacity="0.60"/>
-  <circle cx="852" cy="258" r="0.7" fill="#fff" opacity="0.75"/>
+  <circle cx="782" cy="298" r="0.6" fill="#fff" opacity="0.70"/>
+  <circle cx="828" cy="285" r="0.5" fill="#fff" opacity="0.60"/>
+  <circle cx="852" cy="275" r="0.7" fill="#fff" opacity="0.75"/>
 
-  <!-- ── ATMOSPHERE GLOW ── -->
-  <circle cx="175" cy="152" r="92" fill="url(#atm-g)" filter="url(#sglow)"/>
+  <!-- ATMOSPHERE GLOW -->
+  <circle cx="175" cy="158" r="92" fill="url(#atm-g)" filter="url(#sglow)"/>
 
-  <!-- ── EARTH ── -->
-  <circle cx="175" cy="152" r="72" fill="url(#earth-g)"/>
-  <!-- Landmass shapes -->
+  <!-- EARTH -->
+  <circle cx="175" cy="158" r="72" fill="url(#earth-g)"/>
   <g clip-path="url(#earth-clip)" opacity="0.45">
-    <ellipse cx="152" cy="126" rx="28" ry="20" fill="#2a9050" opacity="0.70"/>
-    <ellipse cx="193" cy="141" rx="20" ry="13" fill="#2a9050" opacity="0.60"/>
-    <ellipse cx="161" cy="170" rx="23" ry="11" fill="#1e6e3a" opacity="0.60"/>
-    <ellipse cx="134" cy="157" rx="14" ry="9"  fill="#1e6e3a" opacity="0.50"/>
-    <ellipse cx="207" cy="118" rx="12" ry="17" fill="#2a9050" opacity="0.55"/>
-    <ellipse cx="176" cy="192" rx="8" ry="6" fill="#1e6e3a" opacity="0.40"/>
+    <ellipse cx="152" cy="132" rx="28" ry="20" fill="#2a9050" opacity="0.70"/>
+    <ellipse cx="193" cy="147" rx="20" ry="13" fill="#2a9050" opacity="0.60"/>
+    <ellipse cx="161" cy="176" rx="23" ry="11" fill="#1e6e3a" opacity="0.60"/>
+    <ellipse cx="134" cy="163" rx="14" ry="9"  fill="#1e6e3a" opacity="0.50"/>
+    <ellipse cx="207" cy="124" rx="12" ry="17" fill="#2a9050" opacity="0.55"/>
+    <ellipse cx="176" cy="198" rx="8"  ry="6"  fill="#1e6e3a" opacity="0.40"/>
   </g>
-  <!-- Shine -->
-  <ellipse cx="153" cy="130" rx="22" ry="17" fill="white" opacity="0.04"/>
-  <!-- Earth edge glow -->
-  <circle cx="175" cy="152" r="72" fill="none" stroke="#00ff87" stroke-width="1.3"
+  <ellipse cx="153" cy="136" rx="22" ry="17" fill="white" opacity="0.04"/>
+  <circle cx="175" cy="158" r="72" fill="none" stroke="#00ff87" stroke-width="1.3"
           opacity="0.45" filter="url(#glow)"/>
 
-  <!-- ── ORBIT PATH (dashed) ── -->
-  <ellipse cx="175" cy="152" rx="130" ry="52" fill="none" stroke="#00ff87"
+  <!-- ORBIT PATH -->
+  <ellipse cx="175" cy="158" rx="130" ry="52" fill="none" stroke="#00ff87"
            stroke-width="0.7" stroke-dasharray="5,8" opacity="0.20"/>
 
-  <!-- ── RADAR SWEEP (clipped inside Earth) ── -->
+  <!-- RADAR SWEEP -->
   <g clip-path="url(#earth-clip)">
-    <circle cx="175" cy="152" r="24" fill="none" stroke="#00ff87" stroke-width="0.6" opacity="0.28"/>
-    <circle cx="175" cy="152" r="48" fill="none" stroke="#00ff87" stroke-width="0.6" opacity="0.18"/>
-    <circle cx="175" cy="152" r="72" fill="none" stroke="#00ff87" stroke-width="0.6" opacity="0.10"/>
-    <!-- Sweep line -->
-    <line x1="175" y1="152" x2="247" y2="152" stroke="#00ff87" stroke-width="1.8" opacity="0.75">
+    <circle cx="175" cy="158" r="24" fill="none" stroke="#00ff87" stroke-width="0.6" opacity="0.28"/>
+    <circle cx="175" cy="158" r="48" fill="none" stroke="#00ff87" stroke-width="0.6" opacity="0.18"/>
+    <circle cx="175" cy="158" r="72" fill="none" stroke="#00ff87" stroke-width="0.6" opacity="0.10"/>
+    <line x1="175" y1="158" x2="247" y2="158" stroke="#00ff87" stroke-width="1.8" opacity="0.75">
       <animateTransform attributeName="transform" type="rotate"
-                        from="0 175 152" to="360 175 152" dur="3.8s" repeatCount="indefinite"/>
+                        from="0 175 158" to="360 175 158" dur="3.8s" repeatCount="indefinite"/>
     </line>
-    <!-- Sweep glow wedge -->
-    <path d="M 175,152 L 247,152 A 72,72 0 0 1 218,218 Z" fill="#00ff87" opacity="0.06">
+    <path d="M 175,158 L 247,158 A 72,72 0 0 1 218,224 Z" fill="#00ff87" opacity="0.06">
       <animateTransform attributeName="transform" type="rotate"
-                        from="0 175 152" to="360 175 152" dur="3.8s" repeatCount="indefinite"/>
+                        from="0 175 158" to="360 175 158" dur="3.8s" repeatCount="indefinite"/>
     </path>
   </g>
-  <!-- Radar center dot -->
-  <circle cx="175" cy="152" r="3.5" fill="#00ff87" filter="url(#glow)">
+  <circle cx="175" cy="158" r="3.5" fill="#00ff87" filter="url(#glow)">
     <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- ── SATELLITE (orbiting) ── -->
+  <!-- SATELLITE -->
   <g filter="url(#glow)">
     <animateMotion dur="9s" repeatCount="indefinite" rotate="auto">
       <mpath xlink:href="#orb"/>
@@ -164,13 +147,13 @@
     <circle cx="0" cy="0"   r="2.2" fill="white" opacity="0.95"/>
   </g>
 
-  <!-- Data transmission pulse -->
-  <line x1="175" y1="82" x2="175" y2="152" stroke="#00ff87" stroke-width="1"
+  <!-- Data pulse -->
+  <line x1="175" y1="88" x2="175" y2="158" stroke="#00ff87" stroke-width="1"
         stroke-dasharray="3,4">
     <animate attributeName="opacity" values="0;0.55;0" dur="2.8s" repeatCount="indefinite" begin="0.8s"/>
   </line>
 
-  <!-- ── RIGHT SIDE: TEXT ── -->
+  <!-- RIGHT SIDE TEXT -->
 
   <!-- Status pill -->
   <g transform="translate(338, 26)">
@@ -183,57 +166,68 @@
           fill="#00ff87" font-weight="bold" letter-spacing="1">CLIMATE OPS ONLINE</text>
   </g>
 
-  <!-- Name: SHARUN -->
-  <text x="340" y="98" font-family="Arial Black, Arial, sans-serif" font-size="48"
+  <!-- SHARUN -->
+  <text x="340" y="100" font-family="Arial Black, Arial, sans-serif" font-size="48"
         font-weight="900" fill="#ffffff" filter="url(#tglow)" letter-spacing="4">SHARUN</text>
 
-  <!-- Name: TOMY (green) -->
-  <text x="340" y="148" font-family="Arial Black, Arial, sans-serif" font-size="48"
+  <!-- TOMY -->
+  <text x="340" y="150" font-family="Arial Black, Arial, sans-serif" font-size="48"
         font-weight="900" fill="#00ff87" filter="url(#tglow)" letter-spacing="4">TOMY</text>
 
-  <!-- Divider line -->
-  <line x1="340" y1="163" x2="845" y2="163" stroke="#00ff87" stroke-width="0.65" opacity="0.22"/>
+  <!-- Divider -->
+  <line x1="340" y1="165" x2="845" y2="165" stroke="#00ff87" stroke-width="0.65" opacity="0.22"/>
 
   <!-- Subtitle -->
-  <text x="340" y="184" font-family="Courier New, monospace" font-size="12.5"
+  <text x="340" y="186" font-family="Courier New, monospace" font-size="12.5"
         fill="#60efff" opacity="0.88" letter-spacing="0.5">
-    Climate Intelligence  ·  Satellite AI  ·  Green Finance Systems
+    Climate Intelligence · Satellite AI · Green Finance Systems
   </text>
 
-  <!-- ── STAT CARDS ── -->
-  <!-- Card 1 -->
-  <g transform="translate(340, 200)">
-    <rect width="124" height="54" rx="7" fill="#00ff87" fill-opacity="0.07"
+  <!-- STAT CARDS row 1 -->
+  <!-- Card 1: Bonds -->
+  <g transform="translate(340, 202)">
+    <rect width="116" height="52" rx="7" fill="#00ff87" fill-opacity="0.07"
           stroke="#00ff87" stroke-width="0.85" stroke-opacity="0.32"/>
-    <text x="62" y="26" font-family="Courier New, monospace" font-size="20"
+    <text x="58" y="25" font-family="Courier New, monospace" font-size="19"
           font-weight="bold" fill="#00ff87" text-anchor="middle" filter="url(#glow)">1,345+</text>
-    <text x="62" y="43" font-family="Courier New, monospace" font-size="9"
+    <text x="58" y="42" font-family="Courier New, monospace" font-size="9"
           fill="#8b949e" text-anchor="middle">Bonds Verified</text>
   </g>
-  <!-- Card 2 -->
-  <g transform="translate(474, 200)">
-    <rect width="124" height="54" rx="7" fill="#ff4757" fill-opacity="0.07"
+  <!-- Card 2: Greenwashing -->
+  <g transform="translate(464, 202)">
+    <rect width="116" height="52" rx="7" fill="#ff4757" fill-opacity="0.07"
           stroke="#ff4757" stroke-width="0.85" stroke-opacity="0.32"/>
-    <text x="62" y="26" font-family="Courier New, monospace" font-size="20"
+    <text x="58" y="25" font-family="Courier New, monospace" font-size="19"
           font-weight="bold" fill="#ff6b7a" text-anchor="middle" filter="url(#glow)">156</text>
-    <text x="62" y="43" font-family="Courier New, monospace" font-size="9"
+    <text x="58" y="42" font-family="Courier New, monospace" font-size="9"
           fill="#8b949e" text-anchor="middle">Greenwashing Flagged</text>
   </g>
-  <!-- Card 3 -->
-  <g transform="translate(608, 200)">
-    <rect width="148" height="54" rx="7" fill="#ffd700" fill-opacity="0.07"
+  <!-- Card 3: NASA -->
+  <g transform="translate(588, 202)">
+    <rect width="130" height="52" rx="7" fill="#ffd700" fill-opacity="0.07"
           stroke="#ffd700" stroke-width="0.85" stroke-opacity="0.32"/>
-    <text x="74" y="24" font-family="Courier New, monospace" font-size="12.5"
+    <text x="65" y="23" font-family="Courier New, monospace" font-size="11.5"
           font-weight="bold" fill="#ffd700" text-anchor="middle" filter="url(#glow)">NASA Runner-Up</text>
-    <text x="74" y="43" font-family="Courier New, monospace" font-size="9"
+    <text x="65" y="42" font-family="Courier New, monospace" font-size="9"
           fill="#8b949e" text-anchor="middle">Space Apps Challenge 2025</text>
+  </g>
+  <!-- Card 4: Publication -->
+  <g transform="translate(726, 202)">
+    <rect width="116" height="52" rx="7" fill="#60efff" fill-opacity="0.07"
+          stroke="#60efff" stroke-width="0.85" stroke-opacity="0.32"/>
+    <text x="58" y="23" font-family="Courier New, monospace" font-size="11.5"
+          font-weight="bold" fill="#60efff" text-anchor="middle" filter="url(#glow)">Published</text>
+    <text x="58" y="37" font-family="Courier New, monospace" font-size="9"
+          fill="#8b949e" text-anchor="middle">Research Paper</text>
+    <text x="58" y="48" font-family="Courier New, monospace" font-size="9"
+          fill="#8b949e" text-anchor="middle">Accepted Jun 2026</text>
   </g>
 
   <!-- Tagline + cursor -->
-  <text x="340" y="274" font-family="Courier New, monospace" font-size="10.5" fill="#484f58">
+  <text x="340" y="290" font-family="Courier New, monospace" font-size="10.5" fill="#484f58">
     &gt; "climate accountability should be impossible to fake"
   </text>
-  <rect x="790" y="263" width="8" height="12" fill="#00ff87" opacity="0.85">
+  <rect x="790" y="279" width="8" height="12" fill="#00ff87" opacity="0.85">
     <animate attributeName="opacity" values="0.85;0;0.85" dur="1s" repeatCount="indefinite"/>
   </rect>
 
@@ -249,7 +243,7 @@
   </g>
   <!-- Corner bracket (bottom left) -->
   <g stroke="#00ff87" stroke-width="0.5" fill="none" opacity="0.07">
-    <polyline points="0,285 0,300 15,300"/>
+    <polyline points="0,305 0,320 15,320"/>
   </g>
 
 </svg>
