@@ -1,12 +1,15 @@
 name: 3D Contribution Calendar
 
 on:
+  schedule:
+    - cron: "0 1 * * 0"   # every Sunday 1am (after snake runs)
   workflow_dispatch:
+  push:
+    branches: [main]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
 
@@ -19,6 +22,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: |
+            {
+              "schemeId": "GitHubGreen",
+              "enableAnimation": true
+            }
 
       - name: Push generated files
         run: |
