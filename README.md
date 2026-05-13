@@ -31,17 +31,16 @@
 
 ## 🧑‍💻 About Me
 
-I am a **climate intelligence researcher and data systems developer** from Kerala, India, currently pursuing an **MSc in Data Analytics** at Mahatma Gandhi University. My work sits at the intersection of **Earth observation, machine learning, and sustainable finance** — I build systems that use satellite imagery to verify real-world climate claims, catch greenwashing in green bond markets, and deliver early-warning signals to disaster-vulnerable communities.
+I am a **climate intelligence researcher and data systems developer** from Kerala, India, currently pursuing an **MSc in Data Analytics** at Mahatma Gandhi University. My work sits at the intersection of **Earth observation, machine learning, and sustainable finance**. I build systems that use satellite imagery to verify real-world climate claims, catch greenwashing in green bond markets, and deliver early-warning signals to disaster-vulnerable communities.
 
 My flagship project **GreenLens** is a live, publicly deployed platform that has independently scored **1,345 real green bonds** using ESA Sentinel-2 satellite data and XGBoost risk modelling — without relying on issuer self-disclosure. I am driven by a single belief: **climate accountability should be impossible to fake.**
 
 - 🌍 &nbsp; Based in **Kottayam, Kerala, India**
 - 🎓 &nbsp; **MSc Data Analytics** — Mahatma Gandhi University (2024–2027)
-- 📄 &nbsp; **Research publication accepted — June 2026**
-- 🏆 &nbsp; **NASA Space Apps Challenge 2025** — Local 1st Runner-Up
+- 📄 &nbsp; **Research publication accepted - June 2026**
+- 🏆 &nbsp; **NASA Space Apps Challenge 2025** - Local 1st Runner-Up
 - 🔭 &nbsp; Currently building **GreenLens** (satellite-verified green finance)
-- 📬 &nbsp; Reach me at **sharuntomy7@gmail.com**
-- 🌐 &nbsp; Portfolio: **[sharuntomyportfolio.onrender.com](https://sharuntomyportfolio.onrender.com)**
+- 📬 &nbsp; Reach me at **sharuntomy5@gmail.com**
 
 ---
 
@@ -64,11 +63,11 @@ My flagship project **GreenLens** is a live, publicly deployed platform that has
 <td width="75px" align="center">📄</td>
 <td>
 
-**GreenLens — Satellite-Verified Climate Risk Intelligence for Green Finance**
+**Artificial Intelligence for Carbon Footprint Prediction and Green Finance Optimisation: A Literature Review**
 <br/>
-*Research Paper · Accepted June 2026*
+*Review Article · Accepted June 2026*
 <br/>
-Introduces a physical-evidence-based framework for auditing green bond claims using ESA Sentinel-2 imagery, XGBoost climate risk scoring, and market pricing gap analysis. Demonstrates detection of 156 greenwashing cases across 1,345 real-world green bonds.
+This literature review explores how artificial intelligence and data analytics improve carbon footprint prediction and green finance optimisation. Based on fourteen studies from 2016–2024, it focuses on machine learning, satellite monitoring, explainable AI, and AI-driven finance systems. The review identifies major research gaps and proposes a five-layer framework integrating carbon prediction, blockchain accountability, and green finance to support sustainability and net-zero goals.
 
 </td>
 </tr>
@@ -141,25 +140,6 @@ Forecasts natural disasters using **NASA open-source Earth observation data** an
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-### 🌿 ANOMALY
-**Carbon On-Chain Sustainability Ecosystem**
-`Dec 2025 → 2028 · Research & System Design`
-
-Integrates **AI + blockchain** to convert real-world environmental actions (recycling, conservation, energy savings) into verifiable digital assets. Creates a transparent, incentivised sustainability economy.
-
-- 💡 Innovation Score: **85/100**
-- 🏛️ **Shortlisted** for university-level incubation
-- 🔗 Carbon identity system + green marketplace
-
-![](https://img.shields.io/badge/Blockchain-0d1117?style=flat-square&logoColor=60efff)
-![](https://img.shields.io/badge/AI_Verification-0d1117?style=flat-square&logoColor=00ff87)
-![](https://img.shields.io/badge/Incubation-Shortlisted-60efff?style=flat-square&labelColor=0d1117)
-
-`SDGs 13 · 12 · 9`
-
-</td>
 <td width="50%" valign="top">
 
 ### 🌧️ DROUGHT
